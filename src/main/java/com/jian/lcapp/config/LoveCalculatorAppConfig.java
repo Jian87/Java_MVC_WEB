@@ -68,9 +68,10 @@ public class LoveCalculatorAppConfig implements WebMvcConfigurer {
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		
-		dataSource.setUsername("root");
-		dataSource.setPassword("jian1987");
-		dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/lovecalculation?useSSL=false");
+		// initial the database information here
+		dataSource.setUsername("your_database_name");
+		dataSource.setPassword("your_database_password");
+		dataSource.setUrl("your_database_url");
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 		
 		return dataSource;
