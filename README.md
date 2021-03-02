@@ -4,7 +4,8 @@
  # Dependence
 
  Based on [Springframe](https://spring.io/)
- I use web-mvc, jdbc, javax-mail, jstl, validator, etc.You can get details to read the [pom.xml](pom.xml) get all the maven repository from [here](https://mvnrepository.com/).
+ I use web-mvc, jdbc, javax-mail, jstl, validator, etc.You can get details to read the [pom.xml](pom.xml).
+ Get all the maven repository from [here](https://mvnrepository.com/).
 
  Install [JDK](https://www.oracle.com/java/technologies/javase-downloads.html), [Mysql](https://dev.mysql.com/downloads/installer/), [Mysql WorkBench](https://dev.mysql.com/downloads/workbench/) and [Tomcat Apache](http://tomcat.apache.org/). 
 
